@@ -15,7 +15,7 @@ namespace StorageAccount
         static void Main(string[] args)
         {
             // reference to the storage account
-            _storageAccount = CloudStorageAccount.Parse(""); // removed because i was pushing to a public repo
+            _storageAccount = CloudStorageAccount.Parse(""); // removed for the purpose of pushing to git
 
             // reference to client
             _tableClient = _storageAccount.CreateCloudTableClient();

@@ -12,8 +12,8 @@ namespace CosmosDb
         private const string ContainerName = "employee";
         private static DocumentClient _documentClient;
         
-        private const string Endpoint = ""; // removed because i was pushing to a public repo
-        private const string PrimaryKey = ""; // removed because i was pushing to a public repo
+        private const string Endpoint = ""; // removed for the purpose of pushing to git
+        private const string PrimaryKey = ""; // removed for the purpose of pushing to git
         
         public static void Main(string[] args)
         {
