@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageAccount", "StorageAccount\StorageAccount.csproj", "{7F9C8E1D-5860-4D9F-A543-F559C7804922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CosmosDb", "CosmosDb\CosmosDb.csproj", "{451E0207-44F6-4186-B6FC-85CDAFD95CF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F9C8E1D-5860-4D9F-A543-F559C7804922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F9C8E1D-5860-4D9F-A543-F559C7804922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F9C8E1D-5860-4D9F-A543-F559C7804922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F9C8E1D-5860-4D9F-A543-F559C7804922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{451E0207-44F6-4186-B6FC-85CDAFD95CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{451E0207-44F6-4186-B6FC-85CDAFD95CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{451E0207-44F6-4186-B6FC-85CDAFD95CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{451E0207-44F6-4186-B6FC-85CDAFD95CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71BE6AB7-3CB4-4312-9025-1563F4E64ED3}
+	EndGlobalSection
+EndGlobal
