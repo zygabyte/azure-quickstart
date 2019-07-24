@@ -12,8 +12,8 @@ namespace CosmosDb
         private const string ContainerName = "employee";
         private static DocumentClient _documentClient;
         
-        private const string Endpoint = ""; // removed for the purpose of pushing to git
-        private const string PrimaryKey = ""; // removed for the purpose of pushing to git
+        private const string Endpoint = "https://azureexamcosmos.documents.azure.com:443/";
+        private const string PrimaryKey = "Ds53meNuG7BCPf6WW4On8AjaZYPd0sG6zSuoNc4wbUAs0lg1S7zTNAnp574GpdxwbltbSI5clWzmfAJqMwN4ZQ==";
         
         public static void Main(string[] args)
         {

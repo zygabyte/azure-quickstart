@@ -15,7 +15,7 @@ namespace StorageAccount
         static void Main(string[] args)
         {
             // reference to the storage account
-            _storageAccount = CloudStorageAccount.Parse(""); // removed for the purpose of pushing to git
+            _storageAccount = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=azureexamstorageaccount;AccountKey=g3U1JbcmBZ8c5ButInduRDWoWCTjdiYewnHH+u/kr27LX2eEao73SEmq20y15+CGVxnd84EHCEKHjY1sAKFOYw==;EndpointSuffix=core.windows.net");
 
             // reference to client
             _tableClient = _storageAccount.CreateCloudTableClient();

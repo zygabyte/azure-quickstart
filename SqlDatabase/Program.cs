@@ -7,7 +7,7 @@ namespace SqlDatabase
     {
         public static void Main(string[] args)
         {
-            const string connectionString = "";
+            const string connectionString = "Server=tcp:azureexamserver.database.windows.net,1433;Initial Catalog=azureexamdb;Persist Security Info=False;User ID=azureexam;Password=azureDB123$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
             const string insertCmd = "insert into Employees (FirstName, LastName) values (@FirstName, @LastName)";
 
             // need a connection that is initialized with a connection string
